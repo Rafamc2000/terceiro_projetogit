@@ -3,16 +3,16 @@ import math
 # #### Inteiros (`int`)
 
 # 1. Escreva um programa que soma dois números inteiros inseridos pelo usuário.
-primero_numero = int(input("insira um numero: "))
-seg_num = int(input("insira outro numero: "))
-soma_resultado = int(primero_numero + seg_num)
-print(soma_resultado)
+#primero_numero = int(input("insira um numero: "))
+#seg_num = int(input("insira outro numero: "))
+#soma_resultado = int(primero_numero + seg_num)
+#print(soma_resultado)
 
 # 2. Crie um programa que receba um número do usuário e calcule o resto da divisão desse número por 5.
-#num = int(input("escolha numero:"))
-#resultado_resto = (num // 5)
-#divisao_5 = (f"O resto da divisão por 5 é:", resultado_resto)
-#print(divisao_5)
+num = int(input("escolha numero:"))
+resultado_resto = (num // 5)
+divisao_5 = (f"O resto da divisão por 5 é:", resultado_resto)
+print(divisao_5)
 
 # 3. Desenvolva um programa que multiplique dois números fornecidos pelo usuário e mostre o resultado.
 #num_um = int(input("digite numero: "))
