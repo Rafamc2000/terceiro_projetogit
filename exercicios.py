@@ -9,10 +9,10 @@ import math
 #print(soma_resultado)
 
 # 2. Crie um programa que receba um número do usuário e calcule o resto da divisão desse número por 5.
-num = int(input("escolha numero:"))
-resultado_resto = (num // 5)
-divisao_5 = (f"O resto da divisão por 5 é:", resultado_resto)
-print(divisao_5)
+#num = int(input("escolha numero:"))
+#resultado_resto = (num // 5)
+#divisao_5 = (f"O resto da divisão por 5 é:", resultado_resto)
+#print(divisao_5)
 
 # 3. Desenvolva um programa que multiplique dois números fornecidos pelo usuário e mostre o resultado.
 #num_um = int(input("digite numero: "))
@@ -118,15 +118,74 @@ print(divisao_5)
 # #### Booleanos (`bool`)
 
 # 16. Escreva um programa que avalie duas expressões booleanas inseridas pelo usuário e retorne o resultado da operação AND entre elas.
+#n1 = float(input("ensira a temperatura: "))
+#n2 = float(input("ensira outra temperatura: "))
+#comparaçao = n1 > n2 and n1 <3
+#print(comparaçao)
+
+
 # 17. Crie um programa que receba dois valores booleanos do usuário e retorne o resultado da operação OR.
+#n = int(input("digite: "))
+#if n < 10 or n > 2 :
+#    print("ta certo")
+#else:
+#    print("errado")
+
+
 # 18. Desenvolva um programa que peça ao usuário para inserir um valor booleano e, em seguida, inverta esse valor.
+#valor = True
+#valor_boleano_invertido = not valor
+#print(valor_boleano_invertido)
+
 # 19. Faça um programa que compare se dois números fornecidos pelo usuário são iguais.
+
+#numero1 = input("numero: ")
+#numero2 = input("numero2: ")
+#igualdade = numero1 == numero2
+#print("resultado da igualdade: ", igualdade)
+
 # 20. Escreva um programa que verifique se dois números fornecidos pelo usuário são diferentes.
+#nm = 3
+#nm2 = 3
+#rs = nm != nm2
+#print(rs)
 
 # #### try-except e if
 
+#python exercicios.py
+
 # 21: Conversor de Temperatura
-# 22: Verificador de Palíndromo
+#try:
+#    celsius = float(input("Digite a temperatura em Celsius: "))
+#    fahrenheit = (celsius * 9/5) + 32
+#    print(f"{celsius}°C é igual a {fahrenheit}°F.")
+#except ValueError:
+#    print("Por favor, digite um número válido para a temperatura.")
+
+# 22: Verificador de Palíndromo(############NAO ENTENDI#######################)                     OLHAR NOVAMENTE
+
+#entrada = input("Digite uma palavra ou frase: ")
+#if isinstance(entrada, str):
+#    formatado = entrada.replace(" ", "").lower()
+#   if formatado == formatado[::-1]:                           
+#        print("É um palíndromo.")
+#    else:
+#        print("Não é um palíndromo.")
+#else:
+#   print("Entrada inválida. Por favor, digite uma palavra ou frase.")
+
 # 23: Calculadora Simples
+#n1 = float(input("n1: "))
+#n2 = float(input("n2: "))
+#res = float(n1 + n2)
+#print(res)
+
+
 # 24: Classificador de Números
+n = 2.52
+if isinstance(n, float):
+    print("é um float")
+else:
+    print("Não é float")
+
 # 25: Conversão de Tipo com Validação
